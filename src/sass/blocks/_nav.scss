@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px #bfbfbf solid;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 100;
+    margin: 10px 0 0 70px;
+    text-transform: uppercase;
+    &__link {
+        text-decoration: none;
+    }
+}
+
+.menu {
+    margin: 60px 0px 0 0px;  
+    &__item {
+        display: inline-block;
+        margin: 0px 20px 15px 20px;
+    }
+	&__link {
+		text-decoration: none;
+        &:hover {
+            color:#bfbfbf;
+        }
+	}
+}
+
+	

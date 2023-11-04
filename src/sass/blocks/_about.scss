@@ -1,0 +1,40 @@
+.about { 
+    &__wrapper {
+        position: relative;
+        width: 80%;
+        margin: auto;
+    }  
+    margin: 100px auto;
+    &__titles {    
+        margin-bottom: 20px;   
+        border: none;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    &__portrait {
+        position:fixed;
+       left: 10%;
+       top: 21%;
+        margin: 0 20px 20px 0;           
+        width: 35%;
+    }
+    &__text {
+        margin: 5px 0 5px 0;
+        font-weight: 100;
+        &_norm {
+            font-weight: 500;
+            margin-top: 15px;
+        }
+        &__wrapper {
+            margin-left: 49%;
+        }
+        &__un-list {  
+            margin-left: 20px;
+            font-weight: 100;         
+            list-style-type: square;
+        }
+    }    
+    
+    }

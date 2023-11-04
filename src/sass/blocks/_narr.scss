@@ -1,0 +1,12 @@
+.narr {
+    margin: 150px auto;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    &__video {        
+            width: 450px;
+        }
+    }

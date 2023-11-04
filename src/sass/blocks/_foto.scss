@@ -1,0 +1,25 @@
+.foto {
+    margin: 150px auto;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    &__item {
+        margin: 10px 5px;
+    }  
+    &__descr {
+        color: #fdc86e;
+        border-bottom: 1px #fff solid;
+        text-align: right;
+        font-size: 18px;
+        font-weight: 100 
+    }
+    &__descr_bottom {
+        text-align: center;
+        color: #fdc86e;
+        font-size: 14px;
+        font-weight: 500 
+    }
+}

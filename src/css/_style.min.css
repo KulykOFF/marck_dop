@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: FiraSans, sans-serif
+}
+
+body {
+    background-color: #000
+}
+
+.video_bg {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -5
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    min-height: 77px;
+    z-index: 5
+}
+
+nav {
+    position: relative;
+    top: 0;
+    width: 100%
+}
+
+.wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    min-height: 50px
+}
+
+.name_logo {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 15px 0 0 70px
+}
+
+.name_logo p {
+    font-weight: 100
+}
+
+.menu_main {
+    padding: 20px 50px 5px 0
+}
+
+.menu {
+    list-style-type: circle
+}
+
+.menu_item {
+    display: inline-block;
+    margin: 15px 10px 0 5px
+}
+
+a {
+    color: #fff;
+    font-weight: 100;
+    text-decoration: none
+}
+
+a.name {
+    font-weight: 700
+}
+
+.link {
+    font-size: 18px
+}
+
+.link:hover {
+    color: #a6a5a5
+}
+
+.narative {
+    position: relative
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.comerc__item {
+    margin-top: 20px
+}
+
+.video {
+    width: 450px
+}
+
+.foto_item {
+    color: #fff
+}
+
+.foto_descr {
+    color: #fdc86e;
+    border-bottom: 1px #fff solid;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 100
+}
+
+.foto_descr_bottom {
+    text-align: center;
+    color: #fdc86e;
+    font-size: 14px;
+    font-weight: 500
+}

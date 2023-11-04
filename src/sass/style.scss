@@ -1,0 +1,27 @@
+// @import 'libs/font';
+
+@import 'base/base';
+
+@import 'libs/variables';
+@import 'libs/font';
+
+@import 'blocks/nav';
+@import 'blocks/first-page';
+@import 'blocks/narr';
+@import 'blocks/doc';
+@import 'blocks/comerc';
+@import 'blocks/foto';
+@import 'blocks/about';
+@import 'blocks/contact';
+
+* {
+	font-family: 'FiraSans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: $bgc-dark;
+	color: $text-color;
+}
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
