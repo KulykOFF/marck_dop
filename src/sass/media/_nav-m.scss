@@ -1,0 +1,112 @@
+@media (max-width: 1200px)
+{
+    
+    .logo {
+        font-size: 27px;
+        font-weight: 100;
+        margin: 10px 0 0 40px;        
+    }
+
+    .menu {
+        margin: 60px 0px 0 0px;       
+        &__item {           
+            margin: 0px 10px 15px 10px;
+        }        
+    }
+}
+
+@media (max-width: 991px) {
+    .logo {
+        font-size: 22px;
+        font-weight: 100;
+        margin: 5px 0 0 0px;        
+    }
+
+    .menu {
+        margin: 60px 0px 0 0px;       
+        &__item {           
+            margin: 0px 10px 15px 10px;
+            font-size: 10px;
+        }        
+    }
+}
+
+@media (max-width: 767px) {    
+    .nav {
+        // display: flex;
+        min-height: 50px;
+        position: relative;        
+    }
+    .logo {
+        font-size: 20px;
+        font-weight: 100;
+        margin: 5px 0 0 0px;        
+    }
+
+    .menu {
+        margin: 52px 0px 0 0px;  
+        position: fixed;        
+        top: 0;
+        right: -100%;
+        width: 35%;
+        height: 100vh;
+        background-color: rgba(0,0,0, .6);
+        transition: 0.6s all;
+        &_active {
+            right: 0;
+        }
+        &__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: end;
+        }    
+        &__item {           
+            margin: 0px 10px 15px 10px;
+            font-size: 15px;
+        }        
+    }
+
+    
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 20%;        
+        width: 26px;
+        height: 12px;
+        span {
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: #fff;
+            margin-bottom: 2px;
+            transition: 0.5s all;
+        }
+        &_active {
+            span {
+                margin-bottom: -2px;
+                &:nth-child(1) {
+                transform: translateY(3px) rotate(-45deg);
+                }
+                &:nth-child(2) {
+                display: none;
+                }
+                &:nth-child(3) {
+                transform: translateY(3px) rotate(45deg);
+                        }
+                    }
+            }
+        }
+    }
+
+
+@media (max-width: 575px) {       
+    .logo {
+        font-size: 16px;             
+    }
+
+    
+        }        
+   
+        

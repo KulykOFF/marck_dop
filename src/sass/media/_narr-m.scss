@@ -1,0 +1,15 @@
+    @media (max-width: 1200px) {
+        .narr {            
+            &__video {        
+                    width: 425px;
+                }
+            } 
+    }
+
+    @media (max-width: 991px) {
+        .narr {            
+            &__video {        
+                    width: 375px;
+                }
+            } 
+    }
